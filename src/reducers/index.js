@@ -3,7 +3,7 @@ import loggedReducer from './isLogged';
 import { combineReducers } from 'redux';
 
 const allReducers = combineReducers ({
-    BiggiesCount: counterReducer,
+    counter: counterReducer,
     isLogged: loggedReducer,
 });
 
